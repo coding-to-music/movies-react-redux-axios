@@ -1,3 +1,45 @@
+# movies-react-redux-axios
+
+# 🚀 Page movies, get API to themoviedb 🚀
+
+https://github.com/coding-to-music/movies-react-redux-axios
+
+https://movies-react-redux-axios.vercel.app
+
+From / By https://github.com/LEDUCLINH/movies
+
+http://movies-eight.vercel.app/
+
+## Environment variables:
+
+```java
+if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
+
+baseURL: 'https://api.themoviedb.org/3/',
+api_key: process.env.REACT_APP_APIKEY
+
+<img src={`${process.env.REACT_APP_LINKIMG}` + movie.poster_path} alt="img" />
+
+src={process.env.REACT_APP_LINKIMGSLICK + cast.profile_path}
+
+<img src={`${process.env.REACT_APP_LINKIMGW500}` + movie.poster_path} alt="img" />
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/movies-react-redux-axios.git
+git push -u origin main
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
